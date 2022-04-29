@@ -1,0 +1,46 @@
+html {
+font-size: 10px; font-family: 'Radio Canada', sans-serif;
+}
+
+h1{
+  font-size: 13em;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+h2{
+  font-size: 4em;
+  font-family: 'Radio Canada', sans-serif;
+}
+.c {
+  font-size: 1em;
+  font-family: 'Radio Canada', sans-serif;
+  background: #eee;
+  width: 8em;
+}
+
+.d{
+  font-family: 'Radio Canada', sans-serif;
+  font-size: 3em;
+  color:#d1d;
+}
+
+#c1 {
+  position: relative;
+  margin: 0 auto;
+  height: 75%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+    transition: all .4s ease;
+}
+
+nav {
+  position: fixed; /* Set the navbar to fixed position */
+     bottom: 0; /* Position the navbar at the bottom of the page */
+     width: 100%; /* Full width */
+     /* background: white; */
+}
